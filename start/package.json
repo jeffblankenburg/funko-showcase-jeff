@@ -7,6 +7,9 @@
     "start": "next start",
     "devserver": "nodemon --exec \"tsx pages/api/server.ts\""
   },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
